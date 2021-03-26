@@ -1,7 +1,7 @@
 var duomo = {
   Image: {
-    xmlns: "http://schemas.microsoft.com/deepzoom/2008",
-    Url: "http://openseadragon.github.io/example-images/duomo/duomo_files/",
+    xmlns: "https://schemas.microsoft.com/deepzoom/2008",
+    Url: "https://openseadragon.github.io/example-images/duomo/duomo_files/",
     Format: "jpg",
     Overlap: "2",
     TileSize: "256",
@@ -14,8 +14,8 @@ var duomo = {
 
 var highsmith = {
   Image: {
-    xmlns: "http://schemas.microsoft.com/deepzoom/2008",
-    Url: "http://openseadragon.github.io/example-images/highsmith/highsmith_files/",
+    xmlns: "https://schemas.microsoft.com/deepzoom/2008",
+    Url: "https://openseadragon.github.io/example-images/highsmith/highsmith_files/",
     Format: "jpg",
     Overlap: "2",
     TileSize: "256",
@@ -28,13 +28,13 @@ var highsmith = {
 
 var viewer1 = OpenSeadragon({
   id: "viewer1",
-  prefixUrl: "http://openseadragon.github.io/openseadragon/images/",
+  prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
   tileSources: duomo
 });
 
 var viewer2 = OpenSeadragon({
   id: "viewer2",
-  prefixUrl: "http://openseadragon.github.io/openseadragon/images/",
+  prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
   tileSources: highsmith
 });
 
